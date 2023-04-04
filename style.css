@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 0 10px;
+}
+.menu{
+    display: flex;
+    background-color: green;
+    gap: 30px;
+    list-style-type: none;
+}
+
+/*Hero*/
+#hero{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.hero-image>img{
+    width: 400px;
+}
+
+/*Main*/
+
+/*Testimonial Quote*/
+
+/*Call to Action*/
+
+/*Footer*/
