@@ -1,5 +1,7 @@
 body{
     margin: auto;
+    background-color: #eee ;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 /*Header*/
@@ -7,30 +9,106 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellow;
-    padding: 0 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 20px;
+}
+#logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: blue;
+}
+h2{
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #222;
 }
 .menu{
     display: flex;
-    background-color: green;
     gap: 30px;
     list-style-type: none;
+    font-weight: bold;
 }
 
 /*Hero*/
 #hero{
-    background-color: aqua;
+    background-color: #222;
     display: flex;
     align-items: center;
+    padding: 100px;
+    color: white;
 }
 .hero-image>img{
     width: 400px;
 }
-
+.hero-info{
+    margin: 50px;
+}
 /*Main*/
+main{
+    margin: 60px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: #222;
+}
+.card{
+    width: 200px;
+}
+.card>img{
+    height: 200px;
+}
+.card>p{
+    font-size: smaller;
+}
 
 /*Testimonial Quote*/
+#quote{
+    background-color: rgb(201, 201, 201);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.quote-text{
+    flex: 1;
+    margin: 20px;
+    font-style: italic;
+}
+.author-text{
+    flex: 1;
+    margin: 20px;
+    text-align: right;
+    font-weight: bold;
+    align-self: flex-end;
+}
 
 /*Call to Action*/
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    background-color: white;
+    padding: 20px 70px;
+}
+button{
+    padding: 10px 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
 
 /*Footer*/
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
